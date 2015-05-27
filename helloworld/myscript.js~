@@ -1,5 +1,0 @@
-
-alert('hoho')
-
-chrome.tabs.executeScript(integer tabId, object details, function callback)
-
