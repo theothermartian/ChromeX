@@ -2,19 +2,32 @@
 	"manifest_version":2,
 	"name":"myfirstextension",
  	"version": "1.0",
-  	"description":"my first extension, pretty much noob stuff",
+  	"description":" disable youtube extensions",
   	"icons":{
   		"16":"icon.png",
   		"48":"icon.png",
   		"128":"icon.png"
   		},
-  	
-  	"browser_action": {
+	
 
-	  	"default_icon": "icon.png",
-	    "default_title": "put that cookie down NOW",
-	    "default_popup": "popup.html"
 
+		
+
+
+  		"permissions": [
+			"tabs",
+    			"https://www.youtube.com/*" 
+    			
+  				],
+
+
+  		"browser_action": {
+     	 "default_title": "click to alert.",
+     	 "default_icon": "icon.png",
+     	 "default_popup": "popup.html"
   		}
+
+
+  		
 
  }
