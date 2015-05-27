@@ -1,0 +1,8 @@
+function kosto()
+{
+console.log('kosto?')
+$(".ytp-segmented-control-deselected").click()
+}
+chrome.browserAction.onClicked.addListener(kosto);
+kosto();
+
